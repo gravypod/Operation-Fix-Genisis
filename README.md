@@ -1,5 +1,5 @@
-Fixing problems I have with parents.fairlawnschools.org
-…
+# Fixing problems I have with parents.fairlawnschools.or
+---
 
 TODO:
 * ~Calculate grades~
