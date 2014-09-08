@@ -1,0 +1,21 @@
+
+{
+	"name": "Operation-Fix-Genisis",
+	"description": "Allows grades to be displayed any time in the year.",
+	"version": "1.0",
+	"permissions": [
+		"*://parents.fairlawnschools.org/*"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"*://parents.fairlawnschools.org/*module=gradebook*action=list*"
+			],
+			"js": [
+				"show_grades.js"
+			],
+			"run_at": "document_end"
+		}
+	],
+	"manifest_version": 2
+}
